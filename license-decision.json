@@ -1,0 +1,17 @@
+{
+ "v": 1,
+ "source": "node-vk-bot-api/node-vk-bot-api",
+ "sha": "f77c7125fd6553d1007fa28809d3783a1559ad99",
+ "commit_date": "2021-04-23T16:48:05+03:00",
+ "github_detected_spdx": "MIT",
+ "accepted": true,
+ "reasons": [],
+ "license_file": "LICENSE.md",
+ "license_sha256": "06b5876d3a2fe8fa21f529374c4e85a33e5eb25d7f14610220849ee3352a5527",
+ "license_bytes": 1070,
+ "copyright_lines": [
+  "Copyright (c) 2017 Mikhail Semin"
+ ],
+ "package_json_license": "MIT",
+ "notice_files": []
+}
