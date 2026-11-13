@@ -1,0 +1,106 @@
+{
+ "v": 1,
+ "started": "2026-11-13T06:59:46.683Z",
+ "target_runtime": "v26.13.1",
+ "target_major_expected": 26,
+ "target_is_expected": true,
+ "steps": [
+  {
+   "name": "install-locked",
+   "exit": 0,
+   "ms": 5455
+  },
+  {
+   "name": "historical-test-1",
+   "exit": 1,
+   "ms": 213
+  },
+  {
+   "name": "historical-mocha-json-1",
+   "exit": 1,
+   "ms": 209
+  },
+  {
+   "name": "historical-test-2",
+   "exit": 1,
+   "ms": 206
+  },
+  {
+   "name": "historical-mocha-json-2",
+   "exit": 1,
+   "ms": 206
+  },
+  {
+   "name": "today-install",
+   "exit": 0,
+   "ms": 2876
+  },
+  {
+   "name": "today-test",
+   "exit": 1,
+   "ms": 170
+  }
+ ],
+ "source": {
+  "source": "node-vk-bot-api/node-vk-bot-api",
+  "sha": "f77c7125fd6553d1007fa28809d3783a1559ad99",
+  "commit_date": "2021-04-23T16:48:05+03:00",
+  "symlinks_removed": 0,
+  "spdx": "MIT",
+  "license_file": "LICENSE.md",
+  "license_sha256": "06b5876d3a2fe8fa21f529374c4e85a33e5eb25d7f14610220849ee3352a5527",
+  "notice_files": [],
+  "copyright_lines": [
+   "Copyright (c) 2017 Mikhail Semin"
+  ]
+ },
+ "test_script": "mocha -r dotenv/config --exit --timeout 5000",
+ "runtime_choice": {
+  "line": "11",
+  "rule": "highest version in .travis.yml"
+ },
+ "runtime": {
+  "line": "11",
+  "version": "11.15.0",
+  "file": "node-v11.15.0-linux-x64.tar.gz",
+  "source": "https://nodejs.org/dist/v11.15.0/node-v11.15.0-linux-x64.tar.gz",
+  "checksum_source": "https://nodejs.org/dist/v11.15.0/SHASUMS256.txt",
+  "expected_sha256": "98bd18051cbdb39bbcda1ab169ca3fd3935d87e9cfc36e1b6fd6f609d46856bb",
+  "actual_sha256": "98bd18051cbdb39bbcda1ab169ca3fd3935d87e9cfc36e1b6fd6f609d46856bb",
+  "verification": "verified",
+  "verified": true,
+  "reports": "v11.15.0"
+ },
+ "install": {
+  "lock_file": "package-lock.json",
+  "method": "lock file",
+  "packages": 300,
+  "without_integrity": 0,
+  "install_scripts_skipped": 1,
+  "non_registry": 0
+ },
+ "historical_runs": [
+  {
+   "test_script_exit": 1,
+   "structured": false,
+   "passes": null,
+   "failures": null
+  },
+  {
+   "test_script_exit": 1,
+   "structured": false,
+   "passes": null,
+   "failures": null
+  }
+ ],
+ "stable_passing_tests": 0,
+ "level": "H3",
+ "reason": "tests did not produce structured passing results in the historical runtime",
+ "today": {
+  "runtime": "v26.13.1",
+  "install_exit": 0,
+  "test_exit": 1,
+  "broken_today": true
+ },
+ "finished": "2026-11-13T06:59:57.014Z"
+}
